@@ -19,7 +19,7 @@ public class Persona_main {
 		apellidos= leer.nextLine();
 		System.out.println("Introduce el DNI de la primera persona: ");
 		dni= leer.nextLine();
-		System.out.println("Introduce la edad de la primera persona: ");
+		System.out.println("Introduce la edad de la primera personas: ");
 		edad =leer.nextInt();
 		
 		persona1=new Persona(nombre, apellidos, dni, edad);
